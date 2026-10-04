@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {safeUrl,verifiedProjects,filterProjects,starsText} from '../model.js';
+const make=(id,stars)=>({id,name:id,summary:id==='Alpha'?'互動著色器 Shader':'物理模擬 Physics',category:id==='Alpha'?'著色器':'物理',tags:['Three.js'],openSourceVerified:true,license:{verified:true,url:'https://example.com/LICENSE'},repositoryUrl:'https://github.com/example/project',popularity:{githubStars:stars}});
+const projects=[make('Gamma',null),make('Alpha',0),make('Beta',400),{...make('Invalid',99999),license:{verified:false}},{...make('Malicious',99999),repositoryUrl:'javascript:alert(1)'}];
+const state={query:'',category:'all',sort:'curated',saved:false};
+assert.equal(safeUrl('javascript:alert(1)'),null);assert.equal(safeUrl('data:text/html,hello'),null);assert.equal(safeUrl('//example.com'),null);assert.equal(safeUrl(null),null);assert.equal(safeUrl('https://example.com'),'https://example.com/');
+assert.equal(verifiedProjects(projects).length,3);assert.deepEqual(filterProjects(projects,state,new Set()).map(p=>p.id),['Gamma','Alpha','Beta']);
+assert.deepEqual(filterProjects(projects,{...state,sort:'stars'},new Set()).map(p=>p.id),['Beta','Alpha','Gamma']);assert.deepEqual(filterProjects(projects,{...state,sort:'name'},new Set()).map(p=>p.id),['Alpha','Beta','Gamma']);
+assert.deepEqual(filterProjects(projects,{...state,query:'  SHADER '},new Set()).map(p=>p.id),['Alpha']);assert.equal(filterProjects(projects,{...state,query:'three.JS'},new Set()).length,3);assert.equal(filterProjects(projects,{...state,query:'no-match'},new Set()).length,0);assert.equal(filterProjects(projects,{...state,category:'著色器'},new Set()).length,1);assert.deepEqual(filterProjects(projects,{...state,saved:true},new Set(['Beta','Invalid'])).map(p=>p.id),['Beta']);assert.equal(filterProjects(projects,{...state,saved:true},new Set()).length,0);
+assert.equal(starsText(make('Alpha',0)),'☆ 0');assert.equal(starsText(make('Gamma',null)),'☆ 星數未查得');assert.equal(projects[0].id,'Gamma','Sort must not mutate source data');
+console.log('PASS: 18 unit assertions: URL sanitization, verified-license gating, search, categories, sorting, unknown vs zero stars, bookmark filtering, non-mutating sort.');

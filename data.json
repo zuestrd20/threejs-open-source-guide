@@ -1,0 +1,1381 @@
+{
+  "schemaVersion": 1,
+  "metadata": {
+    "status": "complete",
+    "sourceUrl": "https://www.facebook.com/profile/61553956547251/search/?q=threejs",
+    "checkedAt": "2026-10-04",
+    "sourcePostCount": 41,
+    "coverageDescription": "本次檢視指定 Facebook 搜尋的 41 則可見結果：29 則含儲存庫線索，去除 5 則重複後得到 24 個不同專案；另外 12 則沒有可驗證儲存庫。於 2026-10-04 16:48:05 UTC 看到「無其他結果」。這只代表本次搜尋可見範圍已走完，並非帳號完整歷史匯出。",
+    "limitations": [
+      "僅涵蓋指定搜尋在本次工作階段的可見結果；搜尋排序、權限及內容可能改變，不等同完整歷史匯出。",
+      "7 則同文 AI 討論只展開一份全文，其餘依相同開頭與圖像歸類；部分重複討論未保留個別永久連結。",
+      "三筆原貼文儲存庫拼字與實際可用網址不同，對應修正是依官方專案內容所作推定，已在各項目註明。",
+      "Facebook 未顯示年份的日期保留原標籤，未自行推定。GitHub 星數來自 2026-10-04 的 API 快照，各項目附 UTC 觀測時間。",
+      "展示網址已依官方儲存庫確認，尚未逐一測試每個展示的互動功能。"
+    ],
+    "validationMethod": "官方 GitHub 儲存庫、README、實際 LICENSE 與 package.json 查核；展示網址由官方儲存庫連結確認，未進行互動功能測試。星數由 GitHub API 於 2026-10-04 取得，各筆記錄附觀測時間，並非全球熱門排行榜。",
+    "observedAt": "2026-10-04T16:49:35Z",
+    "repositoryLinkedPosts": 29,
+    "uniqueRepositoryLeads": 24,
+    "duplicateRepositoryPosts": 5,
+    "otherPosts": 12,
+    "sourceScope": "本次工作階段中指定搜尋的可見結果",
+    "endMarkerObservedAt": "2026-10-04T16:48:05Z",
+    "coverageSummary": "已檢視 41 則搜尋結果，追溯 24 個不同專案；12 個程式碼授權已驗證，另 12 個保留授權或範圍限制。"
+  },
+  "projects": [
+    {
+      "id": "elemental-sandbox",
+      "name": "Elemental Sandbox",
+      "summary": "以 Three.js、GLSL 與程序化幾何打造的技能特效實驗場，可即時調整冰、雷、火與光束效果。",
+      "details": "適合研究遊戲技能視覺、GPU 粒子、瞄準指示器與可暫停調參的特效工作流程。",
+      "category": "特效與著色器",
+      "tags": [
+        "Three.js",
+        "GLSL",
+        "VFX",
+        "GPU 粒子",
+        "遊戲"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/achrefelouafi/LinearAbiltyCastingThreeJS",
+      "demoUrl": null,
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/achrefelouafi/LinearAbiltyCastingThreeJS/blob/main/LICENSE",
+        "verified": true,
+        "scopeNote": "程式碼開源；外部素材另有授權"
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 970,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/achrefelouafi/LinearAbiltyCastingThreeJS"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2155553498673915/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/achrefelouafi/LinearAbiltyCastingThreeJS"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/achrefelouafi/LinearAbiltyCastingThreeJS/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/achrefelouafi/LinearAbiltyCastingThreeJS"
+        },
+        {
+          "label": "Facebook 另一篇來源貼文（8月25日）",
+          "url": "https://www.facebook.com/reel/2139040369987204/"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "程式碼有 MIT 授權；角色 FBX 與 HDR 素材仍適用原有授權。",
+        "官方儲存庫未提供線上展示連結；可依 README 在本機執行。"
+      ],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "8月24日"
+    },
+    {
+      "id": "three-player-controller",
+      "name": "three-player-controller",
+      "summary": "Three.js 第一／第三人稱角色控制器，整合角色碰撞、動畫、相機避障與車輛操作。",
+      "details": "適合網頁遊戲、虛擬展間及場景漫遊；可參考 BVH 加速碰撞、Foot IK 與行動裝置輸入。",
+      "category": "互動與控制",
+      "tags": [
+        "Three.js",
+        "角色控制",
+        "碰撞偵測",
+        "three-mesh-bvh",
+        "Foot IK"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/hh-hang/three-player-controller",
+      "demoUrl": "https://hh-hang.github.io/three-player-controller/",
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/hh-hang/three-player-controller/blob/master/LICENSE",
+        "verified": true
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 296,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/hh-hang/three-player-controller"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1471606608207151/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/hh-hang/three-player-controller"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/hh-hang/three-player-controller/blob/master/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/hh-hang/three-player-controller"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "3天前"
+    },
+    {
+      "id": "three-webgpu-editor",
+      "name": "three-webgpu-editor",
+      "summary": "以 Three.js 與 WebGPU 為基礎的低程式碼 3D 編輯器，著重可擴充元件與場景組態。",
+      "details": "適合研究瀏覽器 3D 編輯介面、元件化場景及 WebGPU 工具的原型設計。",
+      "category": "編輯器與工具",
+      "tags": [
+        "Three.js",
+        "WebGPU",
+        "低程式碼",
+        "場景編輯"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/z2586300277/three-webgpu-editor",
+      "demoUrl": "https://z2586300277.github.io/three-webgpu-editor/",
+      "license": {
+        "name": "Apache-2.0",
+        "url": "https://github.com/z2586300277/three-webgpu-editor/blob/main/LICENSE",
+        "verified": true
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 33,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/z2586300277/three-webgpu-editor"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2141620123377878/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/z2586300277/three-webgpu-editor"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/z2586300277/three-webgpu-editor/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/z2586300277/three-webgpu-editor"
+        },
+        {
+          "label": "Facebook 另一篇來源貼文（8月25日）",
+          "url": "https://www.facebook.com/reel/1488604793085016/"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "展示連結採用此儲存庫 About 欄位；README 亦連結作者另一個 three-editor 專案。"
+      ],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月15日下午3:08"
+    },
+    {
+      "id": "three-editor",
+      "name": "three-editor",
+      "summary": "Three.js 低程式碼場景編輯器，提供編輯、案例與線上程式碼實驗介面。",
+      "details": "適合數位孿生展示、場景組態與自訂 3D 元件工具的原型開發。",
+      "category": "編輯器與工具",
+      "tags": [
+        "Three.js",
+        "Vue 3",
+        "低程式碼",
+        "數位孿生"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/z2586300277/three-editor",
+      "demoUrl": "https://z2586300277.github.io/three-editor/dist/#/editor",
+      "license": {
+        "name": "MulanPSL-2.0",
+        "url": "https://github.com/z2586300277/three-editor/blob/dev/LICENSE",
+        "verified": true
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 594,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/z2586300277/three-editor"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1563428491576260/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/z2586300277/three-editor"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/z2586300277/three-editor/blob/dev/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/z2586300277/three-editor"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "與 three-webgpu-editor 為不同儲存庫，授權亦不同。"
+      ],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月2日"
+    },
+    {
+      "id": "messenger-copy",
+      "name": "messenger-copy",
+      "summary": "以 SvelteKit 與 Three.js 製作的非官方 Messenger 學習重建，探索場景切換、GLSL 材質與後製。",
+      "details": "適合研究 WebGL 場景架構；使用前須區分 MIT 程式碼與未獲再散布授權的原作素材。",
+      "category": "遊戲與場景",
+      "tags": [
+        "Three.js",
+        "SvelteKit",
+        "GLSL",
+        "學習範例"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/arafays/messenger-copy",
+      "demoUrl": null,
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/arafays/messenger-copy/blob/main/LICENSE",
+        "verified": true,
+        "scopeNote": "僅程式碼；原作素材不可逕行再散布"
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 92,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/arafays/messenger-copy"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2568222353608836/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/arafays/messenger-copy"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/arafays/messenger-copy/blob/main/LICENSE"
+        },
+        {
+          "label": "素材權利說明",
+          "url": "https://github.com/arafays/messenger-copy/blob/main/ATTRIBUTION.md"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/arafays/messenger-copy"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "MIT 僅涵蓋此專案程式碼；reference/ 與 static/messenger 的模型、音訊、字型及原作擷取素材不屬於此 MIT 授權。README 明示未經許可不得再散布，請勿直接複製素材或商用。",
+        "非 abeto 官方專案；未提供此重建專案的正式線上展示。"
+      ],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月5日上午12:52"
+    },
+    {
+      "id": "samurai-template",
+      "name": "Samurai Third-Person Template",
+      "summary": "以 Three.js 製作的第三人稱武士動作模板，結合程序化地形、角色移動、近戰與武器特效。",
+      "details": "適合研究第三人稱遊戲原型、動畫整合、裝備編輯及可即時調整的場景特效。",
+      "category": "遊戲與場景",
+      "tags": [
+        "Three.js",
+        "第三人稱",
+        "角色動畫",
+        "程序化地形",
+        "VFX"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/achrefelouafi/SamuraiThirdPersonTemplateThreeJS",
+      "demoUrl": null,
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/achrefelouafi/SamuraiThirdPersonTemplateThreeJS/blob/main/LICENSE",
+        "verified": true,
+        "scopeNote": "程式碼開源；外部素材另有授權"
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 105,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/achrefelouafi/SamuraiThirdPersonTemplateThreeJS"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1407249372462126/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/achrefelouafi/SamuraiThirdPersonTemplateThreeJS"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/achrefelouafi/SamuraiThirdPersonTemplateThreeJS/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/achrefelouafi/SamuraiThirdPersonTemplateThreeJS"
+        },
+        {
+          "label": "Facebook 另一篇來源貼文（8月31日）",
+          "url": "https://www.facebook.com/reel/2218494135763166/"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "MIT 為程式碼授權；README 列出 Sketchfab 角色、Mixamo 動畫、ambientCG 紋理與 Poly Haven HDRI 等外部素材，重用須另核對素材條款。",
+        "官方 README 與 About 未提供線上展示連結。"
+      ],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月20日下午5:11"
+    },
+    {
+      "id": "gxu-campus-3d",
+      "name": "西大・雲遊校園",
+      "summary": "以 Three.js 與 Blender 製作的廣西大學校園導覽，支援地標搜尋、自動巡遊與日夜場景切換。",
+      "details": "適合校園導覽、地理資料視覺化與瀏覽器 3D 地圖的實作參考。",
+      "category": "地圖與導覽",
+      "tags": [
+        "Three.js",
+        "Blender",
+        "OpenStreetMap",
+        "校園導覽"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/wcqqq1214/gxu-campus-3d",
+      "demoUrl": "https://wcqqq1214.github.io/gxu-campus-3d/",
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/wcqqq1214/gxu-campus-3d/blob/main/LICENSE",
+        "verified": true,
+        "scopeNote": "模型 CC BY 4.0；地理資料 ODbL"
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 15,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/wcqqq1214/gxu-campus-3d"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1734288267877856/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/wcqqq1214/gxu-campus-3d"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/wcqqq1214/gxu-campus-3d/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/wcqqq1214/gxu-campus-3d"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "來源貼文寫為 wcqq1214/gxu-campus-3d，該地址回傳 404；依名稱與專案內容查得實際作者為 wcqqq1214（三個 q）。此對應為查核推定，保留拼字差異供核對。",
+        "MIT 僅涵蓋程式碼；自製模型與材質為 CC BY 4.0，地理資料適用 ODbL，須保留 OpenStreetMap 署名。",
+        "建築高度與部分設施依公開資料估算，非實地測繪成果。"
+      ],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月13日下午4:38"
+    },
+    {
+      "id": "operation-ironhold",
+      "name": "Operation Ironhold",
+      "summary": "單一 HTML 檔案構成的 Three.js 第一人稱射擊遊戲，場景、音效與模型於執行時生成。",
+      "details": "適合研究程序化遊戲素材、單檔網頁遊戲與效能調整。",
+      "category": "遊戲與場景",
+      "tags": [
+        "Three.js",
+        "FPS",
+        "程序化生成",
+        "Web Audio"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/StarKnightt/operation-ironhold",
+      "demoUrl": "https://starknightt.github.io/operation-ironhold/",
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/StarKnightt/operation-ironhold/blob/main/LICENSE",
+        "verified": true
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 99,
+        "observedAt": "2026-10-04T16:47:20Z",
+        "sourceUrl": "https://api.github.com/repos/StarKnightt/operation-ironhold"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2328720980999334/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/StarKnightt/operation-ironhold"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/StarKnightt/operation-ironhold/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/StarKnightt/operation-ironhold"
+        },
+        {
+          "label": "Facebook 另一篇來源貼文（8月25日）",
+          "url": "https://www.facebook.com/reel/28165573173084570/"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "需桌面瀏覽器的 WebGL 與 Pointer Lock；官方文件註明不支援手機觸控遊玩。"
+      ],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "8月21日"
+    },
+    {
+      "id": "prehistoric-animal-museum",
+      "name": "Prehistoric Animal Museum",
+      "summary": "可旋轉與縮放史前動物模型的 Three.js 互動博物館，搭配中英雙語簡介與可選擇播放的旁白。",
+      "details": "適合親子科普、數位博物館及無障礙模型檢視介面的實作參考。",
+      "category": "教育與展示",
+      "tags": [
+        "Three.js",
+        "React",
+        "博物館",
+        "雙語",
+        "科普"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/s010s/prehistoric-animal-museum",
+      "demoUrl": "https://leon-made-this.work/museum/en/",
+      "license": {
+        "name": "AGPL-3.0-only",
+        "url": "https://github.com/s010s/prehistoric-animal-museum/blob/main/LICENSE",
+        "verified": true,
+        "scopeNote": "AGPL 程式碼；原創內容限非商業使用"
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 1086,
+        "observedAt": "2026-10-04T16:47:20Z",
+        "sourceUrl": "https://api.github.com/repos/s010s/prehistoric-animal-museum"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1082044991144328/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/s010s/prehistoric-animal-museum"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/s010s/prehistoric-animal-museum/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/s010s/prehistoric-animal-museum"
+        },
+        {
+          "label": "程式碼與素材授權範圍",
+          "url": "https://github.com/s010s/prehistoric-animal-museum/blob/main/LICENSING.md"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "程式碼採 AGPL-3.0-only；原創文字、旁白與背景等另採非商業的 CC BY-NC-SA 4.0，第三方模型依各自條款。不可將整站素材當作 AGPL 程式碼任意商用。",
+        "修改版以網路提供互動服務時，需遵守 AGPL 的對應原始碼提供義務。"
+      ],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月3日"
+    },
+    {
+      "id": "wawa-lipsync",
+      "name": "Wawa Lipsync",
+      "summary": "以 Web Audio API 分析音訊並產生嘴型的 TypeScript 函式庫，附 Three.js／React Three Fiber 角色示例。",
+      "details": "適合虛擬角色、對話介面與網頁遊戲的即時嘴型動畫。",
+      "category": "互動與控制",
+      "tags": [
+        "TypeScript",
+        "Web Audio",
+        "嘴型同步",
+        "React Three Fiber"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/wass08/wawa-lipsync",
+      "demoUrl": "https://wawa-lipsync.wawasensei.dev/",
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/wass08/wawa-lipsync/blob/main/LICENSE",
+        "verified": true
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 211,
+        "observedAt": "2026-10-04T16:48:14Z",
+        "sourceUrl": "https://api.github.com/repos/wass08/wawa-lipsync"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1640264100794817/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/wass08/wawa-lipsync"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/wass08/wawa-lipsync/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/wass08/wawa-lipsync"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "核心為通用 JavaScript 音訊工具；Three.js 關聯由官方 3D 角色示例確認。"
+      ],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月14日下午3:23"
+    },
+    {
+      "id": "vid3d-projection",
+      "name": "vid3d-projection",
+      "summary": "將影片投射至 Three.js 模型或 Cesium 地理場景的工具庫，支援遮擋處理與投影相機標定。",
+      "details": "適合數位孿生中的影像融合、3D 影院與空間投影實驗。",
+      "category": "影像與投影",
+      "tags": [
+        "Three.js",
+        "Cesium",
+        "影片投影",
+        "相機標定"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/hh-hang/vid3d-projection",
+      "demoUrl": "https://hh-hang.github.io/vid3d-projection/",
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/hh-hang/vid3d-projection/blob/main/LICENSE",
+        "verified": true
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 117,
+        "observedAt": "2026-10-04T16:48:14Z",
+        "sourceUrl": "https://api.github.com/repos/hh-hang/vid3d-projection"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1012404055170541/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/hh-hang/vid3d-projection"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/hh-hang/vid3d-projection/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/hh-hang/vid3d-projection"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "8月27日"
+    },
+    {
+      "id": "elemental-serenity",
+      "name": "Elemental Serenity",
+      "summary": "以 Three.js 與 GLSL 製作的互動自然微縮場景，包含季節、雨霧、草木與閃電效果。",
+      "details": "適合研究自然環境著色器、氛圍敘事及行動裝置 3D 展示。",
+      "category": "特效與著色器",
+      "tags": [
+        "Three.js",
+        "GLSL",
+        "自然場景",
+        "GSAP"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/SahilK-027/Elemental-Serenity",
+      "demoUrl": "https://elemental-serenity.vercel.app",
+      "license": {
+        "name": "MIT",
+        "url": "https://github.com/SahilK-027/Elemental-Serenity/blob/main/LICENSE",
+        "verified": true
+      },
+      "licenseVerified": true,
+      "openSourceVerified": true,
+      "popularity": {
+        "githubStars": 248,
+        "observedAt": "2026-10-04T16:48:14Z",
+        "sourceUrl": "https://api.github.com/repos/SahilK-027/Elemental-Serenity"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2204001870144417/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/SahilK-027/Elemental-Serenity"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/SahilK-027/Elemental-Serenity/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/SahilK-027/Elemental-Serenity"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [],
+      "classification": "verified_open_source",
+      "threeJsVerified": true,
+      "sourceDateLabel": "8月29日"
+    }
+  ],
+  "excludedProjects": [
+    {
+      "id": "empire-atlas",
+      "name": "Empire Atlas",
+      "summary": "以 Three.js 呈現八個歷史帝國的住宅模型，搭配建築熱點、剖視、時間軸與測驗。",
+      "details": "可作為數位展覽與互動教材的設計參考；官方文件說明採用 WebGPU 與 TSL 材質。",
+      "category": "教育與展示",
+      "tags": [
+        "Three.js",
+        "WebGPU",
+        "TSL",
+        "React",
+        "建築"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/thebuggeddev/empire",
+      "demoUrl": "https://empireatlas.vercel.app",
+      "license": {
+        "name": "未找到明確授權",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 157,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/thebuggeddev/empire"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2488450024986513/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/thebuggeddev/empire"
+        },
+        {
+          "label": "Facebook 另一篇來源貼文",
+          "url": "https://www.facebook.com/reel/2180129909382502/"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/thebuggeddev/empire"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "已確認公開儲存庫與 Three.js 關聯，但根目錄、README 與 package.json 未找到明確授權；不可標示為已驗證開源。"
+      ],
+      "classification": "license_unverified",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月6日下午3:57"
+    },
+    {
+      "id": "sewage-treatment-plant",
+      "name": "污水處理廠三維視覺化",
+      "summary": "結合 Vue 3、Three.js 與圖表介面的污水處理廠 3D 展示，包含廠區、巡檢與製程資料面板。",
+      "details": "可作為智慧水務、工業看板與數位孿生介面的設計參考。",
+      "category": "工業與數位孿生",
+      "tags": [
+        "Three.js",
+        "Vue 3",
+        "ECharts",
+        "智慧水務"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/cfy1126/sewage-treatment-plant",
+      "demoUrl": "https://sewage-treatment-plant.netlify.app/#/",
+      "license": {
+        "name": "未找到明確授權",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 17,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/cfy1126/sewage-treatment-plant"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1585656153340409/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/cfy1126/sewage-treatment-plant"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/cfy1126/sewage-treatment-plant"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "根目錄、README 與 package.json 未找到明確授權，不列入已驗證開源。",
+        "README 說明主要廠區模型 sewageModel.glb 未納入一般 Git 提交，完整執行需另備該模型。"
+      ],
+      "classification": "license_unverified",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月9日下午3:45"
+    },
+    {
+      "id": "stargazer-tree",
+      "name": "GitHub Star Tree",
+      "summary": "以 React Three Fiber 呈現 GitHub 星標樹屋村，場景會隨天氣、季節與日夜改變。",
+      "details": "可作為資料敘事、互動作品集與程序化天氣視覺的設計參考。",
+      "category": "資料視覺化",
+      "tags": [
+        "Three.js",
+        "React Three Fiber",
+        "Next.js",
+        "天氣",
+        "作品集"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/Plattnericus/Stargazer_Tree",
+      "demoUrl": "https://threejs.plattnericus.dev/",
+      "license": {
+        "name": "未找到明確授權",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 23,
+        "observedAt": "2026-10-04T16:42:37Z",
+        "sourceUrl": "https://api.github.com/repos/Plattnericus/Stargazer_Tree"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1592809525582935/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/Plattnericus/Stargazer_Tree"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/Plattnericus/Stargazer_Tree"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "來源的 Plattnericus/ThreeJS_Portfolio 已由 GitHub 轉址至 Stargazer_Tree。",
+        "儲存庫未提供整體程式碼的明確開源授權；README 提醒另查各模型的 CREDITS.md。"
+      ],
+      "classification": "license_unverified",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月1日"
+    },
+    {
+      "id": "china-heritage-3d",
+      "name": "中國古建築瑰寶 3D",
+      "summary": "以 Three.js 呈現七座中國古建築的互動展示頁，結合分類篩選、雙語介面與按需載入的 3D 環視。",
+      "details": "可作為文化資產展示、行動裝置模型檢視與雙語數位展覽的設計參考。",
+      "category": "教育與展示",
+      "tags": [
+        "Three.js",
+        "Vite",
+        "文化資產",
+        "模型檢視"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/xyiqq/china-heritage-3d",
+      "demoUrl": "https://architecture-iota-khaki.vercel.app",
+      "license": {
+        "name": "ISC（僅 package.json 宣告）",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 83,
+        "observedAt": "2026-10-04T16:43:26Z",
+        "sourceUrl": "https://api.github.com/repos/xyiqq/china-heritage-3d"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1628816038821338/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/xyiqq/china-heritage-3d"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/xyiqq/china-heritage-3d"
+        },
+        {
+          "label": "package.json 授權宣告",
+          "url": "https://github.com/xyiqq/china-heritage-3d/blob/main/package.json"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "package.json 宣告 ISC，但未找到實際 LICENSE 文件；依本站需核對授權全文的規則，暫不列入已驗證開源。",
+        "來源貼文文字及外連均寫為 xyiq/china-heritage-3d，該地址回傳 404；依專案名稱及內容查得 xyiqq/china-heritage-3d，此對應保留為查核推定。"
+      ],
+      "classification": "license_unverified",
+      "threeJsVerified": true,
+      "sourceDateLabel": "4天前"
+    },
+    {
+      "id": "qingmingshanghetu",
+      "name": "入畫・汴京",
+      "summary": "以 Three.js／WebGL 重建《清明上河圖》的虹橋與汴河市井，提供自由觀察、景點探索和場景巡遊。",
+      "details": "可作為歷史敘事、程序建模與互動藝術場景的設計參考。",
+      "category": "教育與展示",
+      "tags": [
+        "Three.js",
+        "WebGL",
+        "Blender",
+        "歷史場景"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/Rising1234Sun/qingmingshanghetu",
+      "demoUrl": "https://rising1234sun.github.io/qingmingshanghetu/",
+      "license": {
+        "name": "未找到明確授權",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 18,
+        "observedAt": "2026-10-04T16:44:57Z",
+        "sourceUrl": "https://api.github.com/repos/Rising1234Sun/qingmingshanghetu"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2573455233100545/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/Rising1234Sun/qingmingshanghetu"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/Rising1234Sun/qingmingshanghetu"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "未找到整體儲存庫授權；README 明示第三方素材授權不等於整個專案採用同一開源授權。",
+        "背面、尺度與部分街巷為藝術推定，不是完整原卷的逐物考證。"
+      ],
+      "classification": "license_unverified",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月10日下午3:01"
+    },
+    {
+      "id": "claude-of-tanks",
+      "name": "Claude of Tanks",
+      "summary": "以 Three.js 製作的瀏覽器坦克遊戲，整合戰場互動、車輛展示與場景編排工具。",
+      "details": "可研究網頁遊戲的渲染、多人互動與編排介面；重用須逐檔核對授權範圍。",
+      "category": "遊戲與場景",
+      "tags": [
+        "Three.js",
+        "WebGL",
+        "多人遊戲",
+        "場景編排"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/Kevin-Liu-01/Claude-of-Tanks",
+      "demoUrl": "https://cot.kevinliu.studio",
+      "license": {
+        "name": "混合授權／部分保留權利",
+        "url": "https://github.com/Kevin-Liu-01/Claude-of-Tanks/blob/main/LICENSE",
+        "verified": true
+      },
+      "licenseVerified": true,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 447,
+        "observedAt": "2026-10-04T16:44:57Z",
+        "sourceUrl": "https://api.github.com/repos/Kevin-Liu-01/Claude-of-Tanks"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2427390004424737/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/Kevin-Liu-01/Claude-of-Tanks"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/Kevin-Liu-01/Claude-of-Tanks/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/Kevin-Liu-01/Claude-of-Tanks"
+        },
+        {
+          "label": "授權範圍與排除條款",
+          "url": "https://github.com/Kevin-Liu-01/Claude-of-Tanks/blob/main/LICENSE-POLICY.md"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "目前為混合授權：一般程式碼預設 MIT，但 src/vehicles/**、src/world/** 及指定資產、媒體與品牌內容為專有 Reserved Content；不能把整款遊戲當作完整 MIT 開源作品。",
+        "LICENSE-POLICY.md 說明較早公開版本仍保有其原有 MIT 授權；本頁描述目前版本。",
+        "展示網址以官方 README 與 About 的 cot.kevinliu.studio 為準。"
+      ],
+      "classification": "mixed_license",
+      "threeJsVerified": true,
+      "sourceDateLabel": "8月30日"
+    },
+    {
+      "id": "anatomy-atelier",
+      "name": "Anatomy Atelier",
+      "summary": "以 Three.js 製作的人體器官 3D 探索介面，結合器官選擇、模型檢視與學習面板。",
+      "details": "可作為科普展覽與互動模型介面的設計參考；不代表醫療內容已獲專業審核。",
+      "category": "教育與展示",
+      "tags": [
+        "Three.js",
+        "React",
+        "3D 模型",
+        "科普"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/thebuggeddev/anatomy",
+      "demoUrl": "https://anatomyatelier.vercel.app",
+      "license": {
+        "name": "未找到明確授權",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 3371,
+        "observedAt": "2026-10-04T16:46:34Z",
+        "sourceUrl": "https://api.github.com/repos/thebuggeddev/anatomy"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/4479598045606745/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/thebuggeddev/anatomy"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/thebuggeddev/anatomy"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "未找到整體程式碼開源授權。",
+        "來源貼文明確寫為 thebuggeddev/anatom，該地址回傳 404；相同作者與題材的實際儲存庫為 thebuggeddev/anatomy，此對應保留為查核推定。"
+      ],
+      "classification": "license_unverified",
+      "threeJsVerified": true,
+      "sourceDateLabel": "8月26日"
+    },
+    {
+      "id": "bench-portal",
+      "name": "Bench Portal",
+      "summary": "集合 AI 製作遊戲、3D 展示、著色器實驗與資料視覺化的靜態目錄。",
+      "details": "可用於尋找互動網頁靈感，支援依類別、標籤與製作模型篩選。",
+      "category": "資源目錄",
+      "tags": [
+        "AI 展示",
+        "遊戲",
+        "著色器",
+        "靈感"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/alesha-pro/bench-portal",
+      "demoUrl": "https://bench-portal.pages.dev",
+      "license": {
+        "name": "未找到明確授權",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 28,
+        "observedAt": "2026-10-04T16:46:34Z",
+        "sourceUrl": "https://api.github.com/repos/alesha-pro/bench-portal"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1956239615762566/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/alesha-pro/bench-portal"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/alesha-pro/bench-portal"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "未找到明確授權；目錄本身無需 npm 套件，不能把所有收錄內容都視為 Three.js 專案。",
+        "本筆為來源延伸資源，非已驗證 Three.js 開源工具。"
+      ],
+      "classification": "broader_resource_unlicensed",
+      "threeJsVerified": false,
+      "sourceDateLabel": "9月6日下午7:11"
+    },
+    {
+      "id": "icraft",
+      "name": "iCraft Editor",
+      "summary": "用於製作 3D 系統架構圖的編輯器，支援巢狀場景、模型匯入及網頁嵌入展示。",
+      "details": "可作為系統架構溝通與數位孿生展示工具的設計參考。",
+      "category": "編輯器與工具",
+      "tags": [
+        "3D 架構圖",
+        "數位孿生",
+        "商業工具"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/gantFDT/icraft",
+      "demoUrl": "https://icraft.design",
+      "license": {
+        "name": "商業專有授權",
+        "url": "https://github.com/gantFDT/icraft/blob/main/LICENSE",
+        "verified": true
+      },
+      "licenseVerified": true,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 1556,
+        "observedAt": "2026-10-04T16:46:34Z",
+        "sourceUrl": "https://api.github.com/repos/gantFDT/icraft"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1096233782935156/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/gantFDT/icraft"
+        },
+        {
+          "label": "授權文件",
+          "url": "https://github.com/gantFDT/icraft/blob/main/LICENSE"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/gantFDT/icraft"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "LICENSE 明確為商業專有授權，限制修改、衍生作品與再散布；不屬於開源軟體。",
+        "官方儲存庫提供文件與示例；本次未以官方文件確認其內部採用 Three.js。"
+      ],
+      "classification": "proprietary",
+      "threeJsVerified": false,
+      "sourceDateLabel": "8月29日"
+    },
+    {
+      "id": "vinyl",
+      "name": "Analogic · 3D Vinyl Experience",
+      "summary": "以 Three.js 製作的 3D 黑膠唱盤互動介面，將產品造型與網頁操作整合。",
+      "details": "可作為音樂主題網站與 3D 產品展示的設計參考。",
+      "category": "產品與作品集",
+      "tags": [
+        "Three.js",
+        "產品展示",
+        "音樂"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/thebuggeddev/vinyl",
+      "demoUrl": "https://vinyl-rho-peach.vercel.app",
+      "license": {
+        "name": "未找到明確授權",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 33,
+        "observedAt": "2026-10-04T16:48:14Z",
+        "sourceUrl": "https://api.github.com/repos/thebuggeddev/vinyl"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2668639903600951/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/thebuggeddev/vinyl"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/thebuggeddev/vinyl"
+        },
+        {
+          "label": "Three.js 實作來源",
+          "url": "https://github.com/thebuggeddev/vinyl/blob/main/index.html"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "index.html 確認載入 Three.js；未找到 README 或整體授權文件。"
+      ],
+      "classification": "license_unverified",
+      "threeJsVerified": true,
+      "sourceDateLabel": "8月26日"
+    },
+    {
+      "id": "modkeys",
+      "name": "MODKEYS",
+      "summary": "以 Three.js 呈現可互動的 3D 鍵盤配置介面，採程序化幾何與動畫呈現產品。",
+      "details": "可作為電商產品選配與瀏覽器 3D 商品展示的設計參考。",
+      "category": "產品與作品集",
+      "tags": [
+        "Three.js",
+        "GSAP",
+        "產品選配",
+        "鍵盤"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/thebuggeddev/modkeys",
+      "demoUrl": "https://modkeys.vercel.app",
+      "license": {
+        "name": "未找到明確授權",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 93,
+        "observedAt": "2026-10-04T16:48:14Z",
+        "sourceUrl": "https://api.github.com/repos/thebuggeddev/modkeys"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/2149814795949660/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/thebuggeddev/modkeys"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/thebuggeddev/modkeys"
+        },
+        {
+          "label": "Three.js 實作來源",
+          "url": "https://github.com/thebuggeddev/modkeys/blob/main/index.html"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "index.html 確認使用 Three.js r128；未找到 README 或整體授權文件。"
+      ],
+      "classification": "license_unverified",
+      "threeJsVerified": true,
+      "sourceDateLabel": "9月7日下午3:35"
+    },
+    {
+      "id": "claude-opus-demo",
+      "name": "Claude Opus 5.5 Demo",
+      "summary": "收錄鵜鶘騎車、射擊與賽車等 Three.js 網頁遊戲的 AI 程式生成展示集。",
+      "details": "可作為程序化場景、互動遊戲與單檔部署流程的設計參考。",
+      "category": "遊戲與場景",
+      "tags": [
+        "Three.js",
+        "程序化生成",
+        "遊戲",
+        "AI 展示"
+      ],
+      "origin": "facebook",
+      "repositoryUrl": "https://github.com/riba2534/claude-opus-5-5-demo",
+      "demoUrl": "https://claude-opus-5-5.riba2534.cn/",
+      "license": {
+        "name": "ISC（子專案宣告，未核對授權全文）",
+        "url": null,
+        "verified": false
+      },
+      "licenseVerified": false,
+      "openSourceVerified": false,
+      "popularity": {
+        "githubStars": 981,
+        "observedAt": "2026-10-04T16:49:43Z",
+        "sourceUrl": "https://api.github.com/repos/riba2534/claude-opus-5-5-demo"
+      },
+      "sources": [
+        {
+          "label": "Facebook 來源貼文",
+          "url": "https://www.facebook.com/reel/1108818104978924/"
+        },
+        {
+          "label": "官方 GitHub 儲存庫",
+          "url": "https://github.com/riba2534/claude-opus-5-5-demo"
+        },
+        {
+          "label": "GitHub API 星數快照",
+          "url": "https://api.github.com/repos/riba2534/claude-opus-5-5-demo"
+        },
+        {
+          "label": "鵜鶘子專案授權宣告",
+          "url": "https://github.com/riba2534/claude-opus-5-5-demo/blob/main/pelican-bike/package.json"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "notes": [
+        "pelican-bike/package.json 宣告 ISC，但未找到授權全文或整體儲存庫授權；暫不列入已驗證開源。",
+        "本筆展示連結對應來源提及的鵜鶘騎車；儲存庫另含其他遊戲，作品與原廠無關。"
+      ],
+      "classification": "license_unverified",
+      "threeJsVerified": true,
+      "sourceDateLabel": "5天前"
+    }
+  ],
+  "otherSourceResults": [
+    {
+      "topic": "AI 模型使用心得與 Three.js 飛機建模案例",
+      "copiesObserved": 7,
+      "status": "相同開頭及圖像的跨頁重複內容；一篇全文已展開，沒有可直接列為開源專案的儲存庫。",
+      "sourceUrls": [
+        "https://www.facebook.com/groups/1224997379198346/?multi_permalinks=1319117123119704",
+        "https://www.facebook.com/groups/844195228468950/?multi_permalinks=977985421756596"
+      ],
+      "sourceLimit": "部分未展開的重複討論未保留個別永久連結。"
+    },
+    {
+      "topic": "AI 安慰話術音樂影片",
+      "copiesObserved": 1,
+      "status": "Remotion與Three.js生成的影片示範；沒有儲存庫連結。",
+      "sourceUrls": [
+        "https://www.facebook.com/reel/1099927422451766/"
+      ]
+    },
+    {
+      "topic": "Three.js與Vue家居VR漫遊",
+      "copiesObserved": 1,
+      "status": "全文已展開但未提供儲存庫；不能自行猜配其他專案。",
+      "sourceUrls": [
+        "https://www.facebook.com/reel/1602853024565570/"
+      ]
+    },
+    {
+      "topic": "ADG 3D Engine",
+      "copiesObserved": 1,
+      "status": "空間設計引擎測試招募介紹；未提供公開儲存庫或開源授權。",
+      "sourceUrls": [
+        "https://www.facebook.com/reel/1221451932904634/"
+      ]
+    },
+    {
+      "topic": "Vue與Three.js三維地圖",
+      "copiesObserved": 1,
+      "status": "全文已展開，雖宣稱開源但未提供儲存庫網址。",
+      "sourceUrls": [
+        "https://www.facebook.com/reel/1341974811041459/"
+      ]
+    },
+    {
+      "topic": "Kimi生成Minecraft風格櫻花場景的截圖",
+      "copiesObserved": 1,
+      "status": "只有生成程式碼畫面；未提供完整可驗證專案。",
+      "sourceUrls": [
+        "https://www.facebook.com/photo/?fbid=122252546792131884&set=a.122109599438131884"
+      ]
+    }
+  ]
+}

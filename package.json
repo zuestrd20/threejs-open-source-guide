@@ -1,0 +1,11 @@
+{
+  "name": "threejs-open-source-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Source-led Traditional Chinese Three.js project guide",
+  "scripts": {
+    "test": "node --check app.js && node --check model.js && node tests/model.test.mjs && node tests/validate.mjs",
+    "check:publish": "node tests/validate.mjs --publish"
+  }
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="從指定 Facebook 來源整理的 Three.js 開源專案探索指南，附官方展示、程式碼、授權與查核資訊。">
+<meta name="theme-color" content="#12171c"><title>THREE / FIELD — Three.js 開源探索指南</title>
+<link rel="stylesheet" href="styles.css"><script type="module" src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#explore">跳到專案目錄</a>
+<header class="topbar wrap"><a href="./" class="brand" aria-label="THREE FIELD 首頁"><span class="brand-mark" aria-hidden="true">✳</span> THREE / FIELD</a><nav aria-label="主要導覽"><a href="#explore">探索專案</a><a href="#method">收錄方法 <span aria-hidden="true">↗</span></a></nav></header>
+<main>
+<section class="hero wrap" aria-labelledby="hero-title">
+<div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> A FIELD GUIDE TO THE THREE.JS WEB</p><h1 id="hero-title">讓想像，<br>多一個<span class="accent">維度。</span></h1><p class="hero-description">從社群線索走進開源世界。探索 Three.js 專案背後的程式碼、創作方式，與值得親手試玩的互動體驗。</p><a class="primary-link" href="#explore">探索開源專案 <span aria-hidden="true">↘</span></a><p class="hero-footnote">SOURCE-LED · LICENSE-CHECKED · OPEN TO EXPLORE</p></div>
+<div class="hero-art" aria-hidden="true"><div class="art-grid"></div><div class="art-axis axis-x"></div><div class="art-axis axis-y"></div><div class="orb"><div class="orb-inner"></div><div class="orb-ring r1"></div><div class="orb-ring r2"></div><div class="orb-ring r3"></div><div class="orb-ring r4"></div><div class="orb-ring r5"></div><div class="orb-ring r6"></div></div><span class="art-coordinate coord-top">FIG. 001 / POSSIBILITIES</span><span class="art-coordinate coord-bottom">X 0.42&nbsp;&nbsp; Y 0.86&nbsp;&nbsp; Z ∞</span><span class="art-plus">+</span><div class="art-caption"><span>CREATIVE<br>DEVELOPMENT</span><span>↗</span></div></div>
+</section>
+<section class="metrics wrap" aria-label="資料摘要"><div><strong id="project-count">—</strong><span>已驗證開源專案</span></div><div><strong id="source-count">—</strong><span>已檢視搜尋結果</span></div><div><strong id="category-count">—</strong><span>探索分類</span></div><div class="updated"><span>LAST VERIFIED</span><strong id="verified-date">等待查核</strong></div></section>
+<section id="explore" class="directory wrap" aria-labelledby="directory-title"><div class="section-heading"><div><p class="eyebrow dark">THE OPEN-SOURCE COLLECTION</p><h2 id="directory-title">找靈感，也找實作。</h2></div><p>每個收錄項目，都能沿著來源繼續探索。</p></div>
+<div id="coverage-alert" class="notice" role="status"></div>
+<div class="toolbar"><label class="searchbox"><span aria-hidden="true">⌕</span><span class="sr-only">搜尋專案名稱、標籤或介紹</span><input id="search" type="search" placeholder="搜尋專案、關鍵字、技術…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label><label class="sort-label">排序<select id="sort"><option value="curated">收錄順序</option><option value="stars">GitHub 星數快照</option><option value="name">名稱 A–Z</option></select></label><button id="saved-filter" class="saved-filter" type="button" aria-pressed="false">♡ <span>我的收藏</span> <span id="saved-count">0</span></button></div>
+<div class="filterbar"><div id="categories" class="chips" role="group" aria-label="分類篩選"></div><p id="result-count" class="result-count" aria-live="polite"></p></div>
+<div id="project-grid" class="project-grid"></div><div id="empty-state" class="empty-state" hidden><div class="empty-symbol" aria-hidden="true">↗</div><h3 id="empty-title"></h3><p id="empty-description"></p><button id="reset-filters" class="text-button" type="button">清除篩選條件 ↗</button></div>
+<noscript><p class="notice">這個目錄需要 JavaScript 才能搜尋與顯示專案。你仍可閱讀下方收錄方法，或直接下載 <a href="data.json">公開資料檔</a>。</p></noscript>
+</section>
+<section id="source-tracking" class="source-tracking wrap" aria-labelledby="tracking-title" hidden><div class="section-heading"><div><p class="eyebrow dark">SOURCE FOLLOW-THROUGH</p><h2 id="tracking-title">其他來源與授權限制。</h2></div><p>以下項目未計入已驗證開源專案。</p></div><p class="tracking-intro">來源中也出現了這些作品。公開儲存庫不一定等於開源；授權未確認或含專有程式碼的項目，請逐項核對使用限制。</p><div id="tracking-list" class="tracking-list"></div></section>
+<section id="method" class="method wrap" aria-labelledby="method-title"><div class="method-heading"><p class="eyebrow dark">BEHIND THE COLLECTION</p><h2 id="method-title">線索有出處，<br>開源有依據。</h2><p>這是一份有來源範圍的探索指南，並非全球排名。每個專案的收錄與限制，都應該看得見。</p><a id="source-link" class="text-link" href="https://www.facebook.com/profile/61553956547251/search/?q=threejs" target="_blank" rel="noopener noreferrer">查看指定 Facebook 搜尋來源 ↗</a></div><div class="method-steps"><article><span>01</span><div><h3>由指定來源追溯</h3><p id="coverage-description">正在確認指定 Facebook 搜尋頁可讀取的內容。尚未取得的貼文不會算入收錄數量。</p></div></article><article><span>02</span><div><h3>查核程式碼與授權</h3><p>回到專案官方網站與儲存庫，確認展示、程式碼和授權。目錄的開源標示指程式碼；模型、音訊等素材可能有不同條款。無法確認程式碼授權的作品不會計入開源目錄。</p></div></article><article><span>03</span><div><h3>讓人氣回到證據</h3><p>星數排序只比較本次收錄項目，不是全球熱門排名。數字為查核當日（UTC）的 GitHub 快照，不代表品質或活躍度；未取得的數字以「未查得」標示。</p></div></article></div></section>
+<section class="source-ledger wrap" aria-labelledby="ledger-title"><details><summary id="ledger-title">其他搜尋結果：未取得可驗證儲存庫 <span id="other-results-count"></span></summary><p class="tracking-intro">保留本次搜尋中未能納入專案目錄的主題與原因；重複內容合併顯示，未推測缺失的儲存庫。</p><div id="other-results-list"></div></details></section>
+<section class="data-notes wrap"><p id="limitations"></p><p>收藏僅儲存在此瀏覽器，不會上傳。本站插圖為原創幾何圖形，並非專案截圖。各專案名稱、程式碼及商標權利屬原作者。</p><a href="data.json" download>下載收錄資料 JSON ↗</a></section>
+</main>
+<footer class="footer wrap"><a href="./" class="brand">✳ THREE / FIELD</a><p>給好奇心一個新的座標。</p><a href="#hero-title">回到頂端 ↑</a></footer>
+<dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-shell"><button id="close-dialog" class="close-dialog" aria-label="關閉專案詳情" type="button">×</button><div id="dialog-content"></div></div></dialog>
+</body></html>

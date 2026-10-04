@@ -5,3 +5,6 @@
 .asset-warning{font-size:9px;color:#927347;padding:7px 9px;border:1px solid #eee1cc;border-radius:4px;background:#fffcf6;margin:-7px 0 16px}.card h3{overflow-wrap:anywhere}
 
 .source-ledger{padding:0 0 35px}.source-ledger details{border:1px solid var(--line);border-radius:8px;padding:18px 22px}.source-ledger summary{font-size:13px;font-weight:700;cursor:pointer}.source-ledger .tracking-intro{margin:20px 0}.other-result{padding:16px 0;border-top:1px solid var(--line)}.other-result h3{font-size:12px;margin:0 0 8px}.other-result p{font-size:11px;margin:5px 0;color:var(--muted)}.other-result-links{display:flex;gap:18px;font-size:10px;margin-top:10px}
+
+/* Full-bleed decorative pseudo-elements must not create horizontal scrolling. */
+html{overflow-x:clip}
